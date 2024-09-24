@@ -1,0 +1,49 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-navbar {
+  margin-right: auto;
+  padding-left: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.logo-title {
+  padding: 7px;
+}
+.nav-section {
+  display: flex;
+  background-color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-details {
+  display: flex;
+  gap: 15px;
+  padding-right: 30px;
+}
+
+.route-sec {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(231, 231, 231);
+  letter-spacing: 1px;
+  border: 2px solid rgb(92, 88, 88);
+  border-radius: 1ch;
+  padding: 7px 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.route-sec:hover {
+  background-color: #444;
+  color: white;
+}
+
+.active {
+  background-color: #949494;
+  color: rgb(0, 0, 0);
+  border-color: #000000;
+}
